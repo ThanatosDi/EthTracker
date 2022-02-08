@@ -7,6 +7,5 @@ Track Ethereum USD price and Gas fee, then show on Discord
 ![image](https://user-images.githubusercontent.com/12424898/153025304-4d6bdd55-f43e-4ebb-a559-6593a16a6131.png)
 
 # Use
-1. Create a Discord bot and copy the bot token
-2. Paste the Discord bot token into DISCORD_TOKEN in config/config.py  
-![image](https://user-images.githubusercontent.com/12424898/153025596-1f04c9a8-4af5-4ca3-8d9f-e1ddad309e1b.png)
+1. Create a Discord bot and copy the bot token and client id
+2. Paste the Discord bot token into DISCORD_TOKEN and client id into CLIENT_ID in config/config.py
