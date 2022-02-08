@@ -12,7 +12,7 @@ class EthCommand(commands.Cog):
         self.bot = bot
         self.eth_api = EthGasAPI()
 
-    @commands.slash_command(name='gas')
+    @commands.slash_command(name='gas', description="get detailed gas and price of ETH")
     async def eth(self, ctx: discord.ApplicationContext):
         await self.eth_api.fetch()
         respond = self.eth_api.respond
